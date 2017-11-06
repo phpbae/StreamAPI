@@ -1,3 +1,6 @@
+import streamEx.StreamEx;
+import streamEx.StreamEx2;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -49,6 +52,14 @@ public class Main {
         stringList.stream().forEach((str) -> {
             System.out.println(str);
         });
+
+        System.out.println("----------------------------------------");
+        System.out.println("----------------------------------------");
+        StreamEx.callStream();
+
+        System.out.println("----------------------------------------");
+        System.out.println("----------------------------------------");
+        StreamEx2.callStream();
 
     }
 }
