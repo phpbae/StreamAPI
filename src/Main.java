@@ -5,8 +5,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-
-        List<String> stringList = Arrays.asList("홍길동", "로보캅", "김자바", "고길동", "자바액션!");
+        long startTime = 0;
+        long endTime = 0;
+        long durationTime = 0;
+        List<String> stringList = Arrays.asList("홍길동", "로보캅", "김자바", "고길동", "자바액션!", "9999", "7777");
 
         System.out.println("------------------------------normal for");
         //일반적인 for
