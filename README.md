@@ -9,7 +9,7 @@ Stream은 data 처리를 지원하는 원천으로부터 원소들의 연속적�
 1. 원소들의 연속적인 배열 : 
 Stream은 특정 type의 구성된 연속적으로 접근 할 수 있는 interface를 제공 합니다. 이들 interface는Collection의 interface에 달리 수정, 저장하는것이 아니라, filtering 또는 mapping 과 같이 data를 연산처리를 합니다. Collection이 data에 관한 것이라면, stream은 연산에 관한 것 입니다.
 
-2.원천 : 
+2. 원천 : 
 배열, collection, I/O channel 에 만들어진 data 원천의 순서를 변경하지 않고그대로 보존 합니다.
 
 3. data 처리 : 
